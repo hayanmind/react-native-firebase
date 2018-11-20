@@ -6,6 +6,7 @@
 #import <Firebase.h>
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventEmitter.h>
+#import <React/RCTInvalidating.h>
 
 @interface RNFirebaseAuth : RCTEventEmitter <RCTBridgeModule> {};
 @end
